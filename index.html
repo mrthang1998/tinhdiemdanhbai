@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="./style.css">
+
+<body>
+    <div class="main">
+        <h1>Tính điểm đánh bài tiến lên</h1>
+
+        <div class="d-flex">
+            <input type="text" name="player_1" />
+            <input type="number" name="point_1" class="number" value="0"/>
+            <input type="number" name="point_player_1" class="number" disabled value="0" />
+        </div>
+
+        <div class="d-flex">
+            <input type="text" name="player_2" />
+            <input type="number" name="point_2" class="number" value="0"/>
+            <input type="number" name="point_player_2" class="number" disabled value="0" />
+        </div>
+
+        <div class="d-flex">
+            <input type="text" name="player_3" />
+            <input type="number" name="point_3" class="number" value="0"/>
+            <input type="number" name="point_player_3" class="number" disabled value="0" />
+        </div>
+
+        <div class="d-flex">
+            <input type="text" name="player_4" />
+            <input type="number" name="point_4" class="number" value="0"/>
+            <input type="number" name="point_player_4" class="number" disabled value="0" />
+        </div>
+        <div class="footer">
+            <button type="button" id="calculator">Tính Điểm</button>
+            <button type="button" id="back">Quay lại ván trước</button>
+            <button type="button" id="backToNow">Tới ván này</button>
+        </div>
+    </div>
+</body>
+<script src="./index.js"></script>
+
+</html>

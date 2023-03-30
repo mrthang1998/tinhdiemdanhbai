@@ -1,0 +1,88 @@
+/* Display only. Not needed! */
+
+@import 'https://raw.githubusercontent.com/jonathantneal/system-font-css/gh-pages/system-font.css';
+
+body {
+    background: dodgerblue linear-gradient(22deg, aqua, dodgerblue, deeppink) fixed;
+    color: white;
+    font: normal 32px/1.6 system-ui, sans-serif;
+    text-shadow: 0 1px 1px hsl(0 0% 0% / 20%);
+    margin: 3rem;
+    width: fit-content;
+}
+
+h1 {
+    font-weight: normal;
+}
+
+a {
+    color: inherit;
+}
+
+a:focus,
+a:hover {
+    text-decoration-color: black;
+}
+
+input {
+    font: inherit;
+    padding: 0.2em 0.5em;
+}
+
+.main {
+    width: 100%;
+}
+
+.d-flex {
+    width: 100%;
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.d-flex input {
+    margin-right: 10px;
+    border-radius: 10px;
+}
+
+.d-flex .number {
+    width: 80px;
+}
+
+.footer {
+    text-align: center;
+}
+
+button {
+    padding: 13px 38px;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1;
+    position: relative;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    background: #ffffff;
+    background-clip: padding-box;
+    color: #3acfd5;
+    outline: none;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+button::after {
+    position: absolute;
+    top: -2px;
+    bottom: -2px;
+    left: -2px;
+    right: -2px;
+    background: dodgerblue linear-gradient(22deg, aqua, dodgerblue, deeppink);
+    content: '';
+    z-index: -1;
+    border-radius: 8px;
+}
+
+button:hover {
+    color: #ffffff;
+    background: linear-gradient(to right, #3acfd5, #be5a97);
+    background-size: 104%;
+    background-position: -2px;
+}

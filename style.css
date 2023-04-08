@@ -7,12 +7,12 @@ body {
     color: white;
     font: normal 32px/1.6 system-ui, sans-serif;
     text-shadow: 0 1px 1px hsl(0 0% 0% / 20%);
-    margin: 3rem;
-    width: fit-content;
+    margin: 1rem;
 }
 
 h1 {
     font-weight: normal;
+    font-size: 28px;
 }
 
 a {
@@ -42,10 +42,15 @@ input {
 .d-flex input {
     margin-right: 10px;
     border-radius: 10px;
+    font-size: 22px;
+}
+
+.d-flex .name {
+    width: 50%;
 }
 
 .d-flex .number {
-    width: 80px;
+    width: 25%;
 }
 
 .footer {
@@ -85,4 +90,8 @@ button:hover {
     background: linear-gradient(to right, #3acfd5, #be5a97);
     background-size: 104%;
     background-position: -2px;
+}
+
+.lucky-number {
+    display: block;
 }
